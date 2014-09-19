@@ -1,0 +1,8 @@
+The Scheduler program is developed in C++, thus we need a C++ compiler to compile it.
+
+Other than source code, it also comes with a simple Makefile. You can either type "make" or 
+"make Scheduler" to generate an executable file called Scheduler. Or you can always type the command 
+"g++ Process.cpp Scheduler.cpp SchedObject.cpp Simulator.cpp main.cpp -o Scheduler"(or any names you want for executable file). 
+
+Once we have the executable file, just type ¡°./Scheduler [-v] [-s<schedspec>] inputfile randfile¡± to run it. 
+Options can be  passed in any order. 
