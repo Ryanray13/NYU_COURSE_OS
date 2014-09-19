@@ -1,0 +1,8 @@
+The Linker program is developed in C++, thus we need a C++ compiler to compile it.
+
+Other than source code, it also comes with a simple Makefile. You can either type ¡°make¡± or 
+¡°make Linker¡± to generate an executable file called Linker. Or you can always type the command 
+¡°g++ main.cpp ¨Co Linker¡±(or any names you want for executable file). 
+
+Once we have the executable file, just type ¡°.Linker input¡± to run it where ¡°input¡± stands for 
+the location for the input file. The program uses the standard output for the results.
