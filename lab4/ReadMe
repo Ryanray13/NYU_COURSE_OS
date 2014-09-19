@@ -1,0 +1,7 @@
+The iosched program is developed in C++, thus we need a C++ compiler to compile it.
+
+Other than source code, it also comes with a simple Makefile. You can either type "make" or 
+"make iosched" to generate an executable file called iosched. Or you can always type the command 
+"g++ Scheduler.cpp Schedalgo.cpp main.cpp -o iosched"(or any names you want for the executable file). 
+
+Once we have the executable file, just type ¡°./iosched -s<algo> <inputfile>¡± or your own shell script to run it. 
