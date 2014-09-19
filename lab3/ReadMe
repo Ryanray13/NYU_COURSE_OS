@@ -1,0 +1,10 @@
+The mmu program is developed in C++, thus we need a C++ compiler to compile it.
+
+Other than source code, it also comes with a simple Makefile. You can either type "make" or 
+"make mmu" to generate an executable file called mmu. Or you can always type the command 
+"g++ algobase.cpp algoObject.cpp MMU.CPP main.cpp -o mmu"(or any names you want for executable file, case sensitive!!). 
+
+Once we have the executable file, just type ¡°./mmu [-a<algo>] [-o<options>] [-f<num_frames>] inputfile randfile¡±
+ or your own shell script to run it. Options can be  passed in any order.  The default options is -al -oS -f32! 
+
+For your information, since several algorithms really differs a little from each other, I put all the algorithms objects in algoObject.
