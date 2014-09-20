@@ -1,3 +1,13 @@
+*/*/
+*/*.pdf
+*/*.bz2
+*/*.zip
+*/*.Z
+*/*.tar
+!lab4/version_2
+!lab2/version_2
+!lab2/version_3
+
 # Compiled Object files
 *.slo
 *.lo
@@ -6,6 +16,9 @@
 
 # Precompiled Headers
 *.gch
+
+
+
 *.pch
 
 # Compiled Dynamic libraries
@@ -26,3 +39,4 @@
 *.exe
 *.out
 *.app
+.gitignore
